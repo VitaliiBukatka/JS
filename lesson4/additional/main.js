@@ -40,11 +40,13 @@
 
 
 // function arrKeyLog(arr) {
-//     for (const arrElement of arr) {
-//         for (const arrElementKey in arrElement) {
-//             console.log(arrElementKey)
+//     let newArr = [];
+//     for (let arrElement of arr) {
+//         for (let arrElementKey in arrElement) {
+//             newArr.push(arrElementKey)
 //         }
 //     }
+//     console.log(newArr)
 // }
 //
 // arrKeyLog([{name: 'Dima', age: 13}, {model: 'Camry'}]);
@@ -54,11 +56,13 @@
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 
 // function arrKeyLog(arr) {
-//     for (const arrElement of arr) {
-//         for (let key in arrElement) {
-//             console.log(arrElement[key]);
+//     let array = [];
+//     for (let arrElement of arr) {
+//         for (const arrElementKey in arrElement) {
+//        array.push(arrElement[arrElementKey])
 //         }
 //     }
+//         console.log(array)
 // }
 //
 // arrKeyLog([{name: 'Dima', age: 13}, {model: 'Camry'}]);
