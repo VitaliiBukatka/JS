@@ -45,7 +45,7 @@
 // for (const simpson of simpsons) {
 //     let divElem = document.createElement('div');
 //     divElem.classList.add('member');
-//     divElem.innerText = `${simpson.name} ${simpson.surname} ${simpson.age} ${simpson.info}`
+//     divElem.innerText = `${simpson.name} ${simpson.surname} ${simpson.age} ${simpson.info}`;
 //     document.body.appendChild(divElem);
 // }
 
@@ -148,9 +148,9 @@
 //     let divItem = document.createElement('div');
 //     let divH2 = document.createElement('h2');
 //     divH2.innerText = item.title;
-//     divH2.classList.add('title')
+//     divH2.classList.add('title');
 //     let divCourseTime = document.createElement('div');
-//     divCourseTime.classList.add('time')
+//     divCourseTime.classList.add('time');
 //     let monthDuration = document.createElement('div');
 //     monthDuration.innerText = (`monthDuration ${item.monthDuration}`);
 //     let hourDuration = document.createElement('div');
